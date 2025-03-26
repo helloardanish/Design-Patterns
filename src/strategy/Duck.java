@@ -19,4 +19,12 @@ public abstract class Duck {
         System.out.println("All ducks float, even decoys!");
     }
 
+    // setting behaviours dynamically
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+
+    public void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
+    }
 }
